@@ -5,7 +5,7 @@ The purpose of this analysis is to gather the data in order to make predictions 
     * The target variable for this model was "IS_SUCCESSFUL" which determined the success of the fundraising campaign with a specifc affiliation they were requesting money from.
 
     * The feature variables were everything else in the dataset (included in the picture). These became the factors that determined if the campaign was successful or not.
-    
+/Users/christopherlevine/Desktop/Data_Science_Bootcamp/Module_21/deep-learning-challenge/Images/Columns.png
 
     * The variables that were removed from the data set were "NAME" and "EIN" because they were solely unique identifiers and didn't give any informatiom whether the campaign would be successful or not. In other words, they do not contribute to the predictive power of the model
 
