@@ -11,8 +11,12 @@ The purpose of this analysis is to gather the data in order to make predictions 
     * The variables that were removed from the data set were "NAME" and "EIN" because they were solely unique identifiers and didn't give any informatiom whether the campaign would be successful or not. In other words, they do not contribute to the predictive power of the model
 
 * Compiling, Training, and Evaluating the Model
-    * I selected in total 160 neurons spanned across four different hidden layers. Furthermore, I used "relu" activation and "sigmoid" activation for the output layer. I used 160 neuron across four hidden layers due to the complexity of the model. If I used less than that the model wouldn't completely capture the complex patterns in the data. Furthermore, I used the "relu" activation function in the input and hidden layers because it sort of is the default standard. However, I used the sigmoid function in the output layer because predicted outputs are either (0 or 1) so it is only trying to binarily classify the outcomes. 
+    * I selected in total 160 neurons spanned across four different hidden layers. Furthermore, I used "relu" activation and "sigmoid" activation for the output layer. I used 160 neuron across four hidden layers due to the complexity of the model. If I used less than that the model wouldn't completely capture the complex patterns in the data. Furthermore, I used the "relu" activation function in the input and hidden layers because it sort of is the default standard. However, I used the sigmoid function in the output layer because predicted outputs are either (0 or 1) so it is only trying to binarily classify the outcomes.
+    * ![Model_Summary](https://github.com/chris-levine/deep-learning-challenge/assets/143342297/e8d83d5c-f92f-48e3-ba40-a460b76086f6)
+
     * I was not able to achieve my target model performance.
+    * ![Accuracy](https://github.com/chris-levine/deep-learning-challenge/assets/143342297/cfb15bb1-cd2c-4208-a7ae-ea785c01d922)
+
     * Some things I tried to do was to add more neurons to each layer and also increase the amount of layers. Furthermore, I also binned another column ("ASK_AMT") because the majority of the asking amount was 5000. I took everything higher than 5000 and added it to a bin. 
 
 * Summary
